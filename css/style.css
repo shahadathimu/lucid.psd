@@ -1,0 +1,729 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration:none;
+}
+
+/*universal codes start*/
+h6{
+	text-transform: uppercase;
+	color: #008ed6;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+}
+/*universal codes end*/
+
+/*CSS codes for Header section start from here*/
+
+.header{
+	background: url(../images/headerbg.png) center bottom no-repeat;
+	background-size: cover;
+}
+
+.header .navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    width: 150px;
+}
+.header .navbar-light .navbar-brand img{
+	width: 100%;
+}
+.header .bg-light {
+    background-color: transparent!important;
+    padding:15px 0 0 0;
+}
+.header .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+}
+.header .navbar-light .navbar-nav .nav-item {
+    padding-left: 15px;
+}
+.header .navbar-light .navbar-nav .home{
+	background: url(../images/dash.png) center bottom no-repeat;
+	background-size: auto;
+}
+
+
+.header-bottom {
+    padding: 62px 0 0 0;
+}
+
+.header-bottom h1{
+    color: #FFF;
+    font-size: 45px;
+    line-height: 58px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+.header-bottom p{
+    color: #999999;
+    font-size: 20px;
+    line-height: 29px;
+    word-spacing: 1.5px;
+    letter-spacing: 0.5px;
+    margin-bottom: 45px;
+}
+.header-bottom .btn-d {
+    background: #008ED6;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 12px 20px;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.header-bottom .btn-d:hover,
+.header-bottom .btn-d:focus{
+	background: transparent;
+	border: 1px solid #454549;
+}
+.header-bottom .btn-v {
+    background: transparent;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 12px 20px;
+    border: 1px solid #454549;
+    font-weight: 600;
+    font-size: 15px;
+}
+.header-bottom .btn-v:hover,
+.header-bottom .btn-v:focus{
+	background: #008ED6;
+	border: 1px solid #454549;
+}
+.header-bottom .left-side-content {
+    padding: 35px 0 83px 0;
+}
+.header-bottom .right-side-content img{
+	width: 90%;
+}
+
+
+/*CSS codes for Header section End here*/
+
+/*CSS codes for features section start here*/
+section.features {
+    padding: 80px 0;
+    border-bottom: 1px solid #bababa;
+}
+section .features-first-row {
+    padding-bottom: 60px;
+}
+
+.features .text-center h1{
+	font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+}
+.features .features-second-row {
+	text-align: center;
+}
+.features .features-second-row .card{
+    border: none;
+}
+.features .features-second-row .features-image {
+    width: 90px;
+    height: 90px;
+    margin: 0px auto;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    padding: 28px 0;
+    margin-top: 20px;
+}
+.features .features-second-row .features-image .card-img-top {
+    width: 31px;
+    height: 30px;
+}
+.features .features-second-row .card-body .card-title {
+    margin-bottom: .5rem;
+    font-size: 28px;
+    font-weight: 500;
+}
+.features .features-second-row .card-body .card-text{
+	color: #999999;
+    font-size: 19px;
+}
+/*CSS codes for features section End here*/
+
+/*CSS codes for device section start from here*/
+
+section.device {
+    padding: 80px 0;
+}
+.device .device-right-side-content{
+    padding: 50px 170px 0 0;
+}
+.device h1{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 56px;
+    margin: 0 0 20px 0;
+}
+.device img{
+	padding-bottom: 20px;
+}
+.device p{
+    color: #999999;
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+.device ul{
+	padding-left: 0px;
+}
+.device ul li{
+	list-style: none;
+    font-size: 19px;
+    padding-bottom: 14px;
+}
+.device ul li i{
+	margin-right: 15px;
+    width: 4%;
+    padding-left: 0%;
+    color: #0B93D8;
+}
+
+
+
+/*CSS codes for device section end here*/
+
+/*CSS codes for customize section start from here*/
+
+section.customize {
+    padding: 80px 0;
+    background: #F2F2F2;
+}
+.customize .col-md-5 {
+    padding: 90px 0 0 0;
+}
+.customize h1{
+	font-weight: 600;
+    font-size: 36px;
+    line-height: 56px;
+    margin: 0 0 20px 0;
+}
+.customize img{
+	padding-bottom: 20px;
+}
+.customize p{
+	font-size: 17px;
+    color: #999999;
+    padding-right: 20px;
+}
+
+.customize .customize-img img{
+	width: 100%;
+}
+
+
+/*CSS codes for customize section end  here*/
+
+/*CSS codes for testimonials section start  here*/
+
+section.testimonials {
+    padding: 80px 0;
+    background-size: cover; 
+    background: url(../images/clientbg.png) center bottom no-repeat;
+}
+
+.testimonials .text-center h1{
+	font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    margin: 0 0 10px 0;
+    color: #ffffff;
+}
+.testimonials .col-md-6{
+	padding: 40px 0;
+}
+.testimonials .col-md-6 .client-massege{
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 34px;
+    font-style: italic;
+    padding: 0 65px 0 0;
+}
+.testimonials .inner-row .col-sm-2{
+	width: 15%;
+}
+.testimonials .inner-row .col-sm-2 img{
+	width: 100%;
+}
+.testimonials .inner-row .client-name {
+	color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+}
+.testimonials .inner-row h5{
+	color: #ffffff;
+    font-size: 22px;
+}
+
+
+/*CSS codes for testimonials section end  here*/
+
+/*CSS codes for theme start*/
+section.theme {
+    background: black;
+    padding: 30px 0;
+}
+
+.theme h3{
+	margin: 0;
+    padding-top: 8px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.theme span{
+	font-size: 32px;
+    font-weight: 400;
+}
+.theme .btn-d {
+    background: #008ED6;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 12px 20px;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.theme .btn-d:hover,
+.theme .btn-d:focus{
+	background: transparent;
+	border: 1px solid #454549;
+}
+.theme .btn-v {
+    background: transparent;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 12px 20px;
+    border: 1px solid #454549;
+    font-weight: 600;
+    font-size: 15px;
+}
+.theme .btn-v:hover,
+.theme .btn-v:focus{
+	background: #008ED6;
+	border: 1px solid #454549;
+}
+
+
+/*CSS codes for theme end*/
+
+/*pricing-plans code css start*/
+section.pricing-plans {
+    padding: 60px 0;
+}
+.pricing-plans h1{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 55px;
+}
+.pricing-plans .card-body {
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 0;
+    border:1px solid #bababa;
+}
+.pricing-plans .card-body .card-title {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 45px;
+    border-bottom: 1px solid #bababa;
+    padding: 1rem;
+    margin: 0;
+}
+.pricing-plans .card-body h1{
+    font-size: 70px;
+    line-height: 80px;
+    margin: 0;
+}
+.pricing-plans .card-body h1 sup {
+    font-size: 45px;
+    font-weight: 400;
+}
+.pricing-plans .card-body .price-dollar {
+    padding: 3rem 1rem;
+    border-bottom: 1px solid #bababa;
+}
+.pricing-plans .card-body .per-month {
+    font-size: 18px;
+    line-height: 28px;
+    color: #999999;
+}
+.pricing-plans .card-body p{
+    padding: 1rem;
+    font-size: 18px;
+    color: #999999;
+    line-height: 28px;
+}
+.pricing-plans .card-body p span{
+	color: #008EDD;
+}
+.pricing-plans .card-body .btn-order {
+    border: 1px solid #999999;
+    margin: 0 0 25px 0;
+    padding: 12px 30px;
+    font-size: 19px;
+    font-weight: 600;
+    color: #008EDD;
+}
+.pricing-plans .card-body .btn-order:hover,
+.pricing-plans .card-body .btn-order:focus{
+	background: #008EDD;
+	color: #ffffff;
+	border: 1px solid #008EDD;
+}
+.pricing-plans .price-cards {
+    padding: 75px 0 0 0;
+}
+/*pricing-plans code css end*/
+
+/*contact us css code start*/
+.contact {
+    padding: 80px 0;
+    background: #EDEDED;
+}
+.contact .cards-contact {
+    padding: 50px 0 0 0;
+}
+.contact .cards-contact i {
+    font-size: 45px;
+    line-height: 55px;
+    color: #008EDD;
+    padding: 0 0 20px 0;
+}
+.contact .cards-contact .text-center p {
+    font-size: 18px;
+    line-height: 29px;
+    margin: 0;
+    padding-bottom: 10px;
+    color: #999999;
+}
+/*contact us css code start*/
+
+.contact .btn-msgs {
+    border: 1px solid #999999;
+    margin: 0 0 25px 0;
+    padding: 12px 30px;
+    font-size: 19px;
+    font-weight: 600;
+    color: #008EDD;
+}
+
+.contact-form {
+    padding: 50px 0 0 0;
+}
+.contact-form .col-md-8.m-auto {
+    border: 1px solid;
+    padding: 60px;
+    background: #15141A;
+}
+.form-floating input {
+    background: transparent;
+}
+.form-floating input:focus,
+.form-floating label:focus,
+.form-floating textarea:focus{
+	color: #ffffff;
+	background: transparent;
+}
+.form-floating label {
+    color: #ffffff;
+}
+.form-floating textarea{
+	background: transparent;
+	padding: 103px 0.75rem;
+}
+.contact .contact-form .btn-d {
+    background: #008ED6;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 12px 20px;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.sendmsgs{
+	padding: 22px 0;
+}
+/*contact us css code End*/
+
+/*Footer css start*/
+
+footer.footer {
+    padding: 40px 0;
+    background: #15141a;
+}
+ul.icons-ul {
+    display: flex;
+    list-style: none;
+    font-size: 23px;
+    line-height: 33px;
+    padding-left: 0px;
+}
+li.icons-footer {
+    padding: 0 53px 0 0;
+    color: #444348;
+}
+footer.footer p {
+    font-size: 17px;
+    word-spacing: 3px;
+    color: #444348;
+    margin-bottom: 0;
+}
+li.icons-footer.active {
+    color: #008ED6;
+}
+/*Footer css end*/
+
+/*Media Quaries start here*/
+@media (min-width: 320px) and (max-width: 480px){
+/* css code start */
+
+
+.header .navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    width: 100px;
+}
+
+.header .navbar-light .navbar-brand img{
+	width: 100%;
+}
+
+h6 {
+    text-transform: uppercase;
+    color: #008ed6;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+
+.header-bottom h1 {
+    color: #FFF;
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 600;
+    padding: 0px 0;
+}
+
+.header-bottom .btn-d {
+    background: #008ED6;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+    margin-left: 40px;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 10px;
+    text-align: center;
+}
+
+.header-bottom .btn-v {
+    background: transparent;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+    border: 1px solid #454549;
+    font-weight: 600;
+    font-size: 10px;
+    text-align: center;
+}
+
+.header-bottom .right-side-content img {
+    width: 80%;
+    padding: 0px 50px;
+    margin: 0px auto;
+}
+
+section.features {
+    padding: 40px 0;
+    border-bottom: 1px solid #bababa;
+}
+
+.features .text-center h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0;
+}
+
+section .features-first-row {
+    padding-bottom: 40px;
+}
+
+section.device {
+    padding: 40px 0;
+}
+
+.device img {
+    padding-bottom: 20px;
+    width: 150px;
+    margin: 0px 20px 0px 60px;
+}
+
+.device .device-right-side-content {
+    padding: 20px 55px 0 0;
+}
+
+h6 {
+    text-transform: uppercase;
+    color: #008ed6;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: .5px;
+    padding: 0px 0px 0px 70px;
+}
+
+.device h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    margin: 0 0 0 30px;
+}
+
+.device img {
+    padding-bottom: 15px;
+    width: 150px;
+    margin: 0px 15px 0px 55px;
+}
+
+.device p {
+    color: #999999;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    margin: 20px;
+}
+
+.device ul {
+    padding-left: 0px;
+    margin: 30px;
+}
+
+section.customize {
+    padding: 0px 0;
+    background: #F2F2F2;
+}
+
+.customize h1 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0px 0 5px 0;
+    padding: 30px;
+}
+
+.customize img {
+    padding-bottom: 10px;
+    margin: 0px 0px 0px 90px;
+}
+
+.customize p {
+    font-size: 17px;
+    color: #999999;
+    padding-right: 20px;
+    margin: 25px;
+}
+
+.customize .customize-img img {
+    width: 45%;
+}
+
+section.testimonials {
+    padding: 25px 0;
+    background-size: cover;
+    background: url(../images/clientbg.png) center bottom no-repeat;
+}
+
+img, svg {
+    vertical-align: middle;
+    margin: 0px 0px 0px 80px;
+}
+
+.testimonials .col-md-6 {
+    padding: 15px 0;
+}
+
+.theme .btn-d {
+    background: #008ED6;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.theme .btn-v {
+    background: #008ED6;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+section.pricing-plans {
+    padding: 40px 0;
+}
+
+h6 {
+    text-transform: uppercase;
+    color: #008ed6;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: .5px;
+    padding: 0px 0px 0px 20px;
+
+}
+
+.pricing-plans h1 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 31px;
+    padding-left: 30px;
+}
+
+img, svg {
+    vertical-align: middle;
+    margin: 0px 0px 0px 35px;
+}
+
+.contact {
+    padding: 0px 0;
+    background: #EDEDED;
+}
+
+li.icons-footer {
+    padding: 0 25px 0 10px;
+    color: #444348;
+}
+
+footer.footer p {
+    font-size: 15px;
+    word-spacing: 2px;
+    color: #444348;
+    margin-bottom: 0;
+}
+
+/* css code end */
+}
+@media (min-width: 481px) and (max-width: 767px){
+	
+}
+@media (min-width: 768px) and (max-width: 1024px){
+	
+}
+/*Media Quaries End here*/
+
